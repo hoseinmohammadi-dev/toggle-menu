@@ -27,8 +27,9 @@ nav {
         gap: 10px;
         position: absolute;
         top: 80px;
-        left: 0;
+        left: -300px;
         padding: 20px;
+        transition: .4s ease-in-out;
 
 
         >li {
@@ -44,10 +45,21 @@ nav {
     }
 
     >div{
+        width: 80px;
+        height: 80px;
+        border: 1px solid red;
+        position: absolute;
+        left: 0;top: 0;
+        transition: .4s ease-in-out;
         >i{
+            
             position: absolute;
             top: 25px;left: 20px;
             font-size: 30px;
+
+            &:nth-of-type(2){
+                display: none;
+            }
         }
     }
 }
