@@ -1,3 +1,13 @@
+// popUp
+const pop = document.querySelector('.pop')
+
+function closePopUp(){
+    pop.style.opacity='0'
+    pop.style.visibility='hidden'
+}
+
+
+// toggle menu
 const toggle = document.querySelector('.toggle-menu')
 const menu = document.querySelector('nav>ul')
 const icon =document.querySelectorAll('.toggle-menu>i')
